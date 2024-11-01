@@ -1,0 +1,109 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #2a2a2a;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 20px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+
+/* nav {
+  background-color: #333;
+  padding: 10px 0;
+} */
+
+ul {
+  list-style-type: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57505000;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #c22121;
+  border-radius: 20px;
+
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 1px;
+  margin: 70px;
+  font-family: audiowide;
+  font-size: 100px;
+}
+
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 1px;
+  margin: 20px;
+}
+
+p {
+
+  background-color: rgba(220, 23, 23, 0.581);
+  margin-left: 30px;
+  text-align: justify;
+  color: #f7f7f7;
+  text-indent: 2px;
+  padding: 2px;
+  margin: 7px;
+  font-family: inter;
+  font-size: 20px;
+
+}
+
+main {
+  padding: 20px;
+}
+
+.game {
+  display: inline-block;
+  background-color: #444;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
